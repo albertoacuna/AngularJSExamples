@@ -4,8 +4,8 @@ It is based off of the angular-seed with some modifications.
 
 
 ##Dependencies
-Source control should already come with all of the npm and bower dependencies.
-If not part of the project you can run
+In order to get all of the npm and bower dependencies you can run the following command
+in the terminal of the root directory of the project
 
 ```
   npm install
