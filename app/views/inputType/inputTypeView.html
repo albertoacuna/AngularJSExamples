@@ -1,0 +1,9 @@
+<div style="text-align: center">
+        <div ng-repeat="group in controller.reportDirective.menuGroups">
+            <a data-toggle="collapse" data-target="#{{group.name.replace(' ','')}}">{{group.name}}</a>
+            <div class="nav collapse" id="{{group.name.replace(' ','')}}">
+                <input-type-directive group="group"> </input-type-directive>
+            </div>
+        </div>
+        <button class="btn btn-primary" ng-click="controller.Search()">Submit</button>
+</div>
