@@ -1,4 +1,4 @@
-# AngularJS Exampls - App that shows some of my AngularJS work
+# AngularJS Examples - App that shows some of my AngularJS work
 This project is here to showcase examples of my AngularJS work.
 It is based off of the angular-seed with some modifications.
 
