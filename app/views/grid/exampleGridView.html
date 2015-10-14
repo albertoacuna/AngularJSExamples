@@ -1,0 +1,15 @@
+Example Grid:
+<div ng-controller="exampleGridController as gridController">
+    <button class="btn-primary" ng-click="gridController.setGrid()">Set Grid</button>
+    <button class="btn-primary" ng-click="gridController.toggleToolPanel()">Toggle Tool Panel</button>
+    <button class="btn-primary" ng-click="gridController.resizeColumns()">Resize Columns To Fit</button>
+    <div class="ag-fresh" style="height: 200px" ag-grid="gridController.gridOptions" ></div>
+</div>
+<hr/>
+Example Grid 2 with different controller:
+<div ng-controller="example2GridController as gridController">
+    <button class="btn-primary" ng-click="gridController.setGrid()">Set Grid</button>
+    <button class="btn-primary" ng-click="gridController.toggleToolPanel()">Toggle Tool Panel</button>
+    <button class="btn-primary" ng-click="gridController.resizeColumns()">Resize Columns To Fit</button>
+    <div class="ag-fresh" style="height: 200px" ag-grid="gridController.gridOptions" ></div>
+</div>

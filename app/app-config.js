@@ -7,6 +7,9 @@
             templateUrl: 'views/inputType/inputTypeView.html',
             controller: 'inputTypeCtrl',
             controllerAs: 'controller'
-        })
+             })
+            .when('/exampleGrid', {
+                templateUrl: 'views/grid/exampleGridView.html',
+            })
     }
 })();

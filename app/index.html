@@ -7,6 +7,8 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="bower_components/ag-grid/dist/ag-grid.min.css">
+  <link rel="stylesheet" href="bower_components/ag-grid/dist/theme-fresh.min.css">
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
 
 
@@ -14,14 +16,19 @@
   <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
   <script src="bower_components/angular/angular.js"></script>
   <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="bower_components/ag-grid/dist/ag-grid.min.js"></script>
   <script src="app.js"></script>
   <script src="app-config.js"></script>
   <script src="directives/inputTypeDirective.js"></script>
   <script src="controllers/inputTypeView.js"></script>
+  <script src="controllers/baseGridController.js"></script>
+  <script src="controllers/exampleGridController.js"></script>
+  <script src="controllers/example2GridController.js"></script>
 </head>
 <body>
   <div class="jumbotron" style="text-align: center"><h1>Dynamic Filter Template</h1></div>
   <ul class="menu">
+    <li><a href="#/exampleGrid">Example Grid</a></li>
     <li><a href="#/inputTypeDirective">Test Input Type Directive</a></li>
   </ul>
 

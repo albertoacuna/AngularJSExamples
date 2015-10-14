@@ -5,13 +5,10 @@
     function inputTypeCtrl() {
         var vm = this;
 
-        vm.reportDirective = {
-            title: "Test Report",
-
+        vm.filterModel = {
             menuGroups: [
                 {
                     name: 'Input1',
-                    isExpanded: false,
                     inputType: 'dropdown',
                     items: [
                         { text: 'Input1 1' },
@@ -22,7 +19,6 @@
                 },
                 {
                     name: 'Input2',
-                    isExpanded: false,
                     inputType: 'radio',
                     items: [
                         { text: 'Input2 1' },
@@ -31,20 +27,11 @@
                     ],
                     selected: ''
                 }
-            ],
-            toggleSelection: function (name, group) {
-                var index = group.selected.indexOf(name);
-
-                if (index > -1) {
-                    group.selected.splice(index, 1);
-                } else {
-                    group.selected.push(name);
-                }
-            }
+            ]
         };
 
         vm.Search = function () {
-            //
+            //Perform some new query request using the filters that have been selected
         }
     }
 })();
